@@ -8,9 +8,8 @@ export default function Home(){
 
   return (
     <div>
-      <h1>Mini Bakery Storefront</h1>
+      <h1 className='site-header'>Mini Bakery Storefront</h1>
       <ProductList/>
-    
     </div>
   )
 }
