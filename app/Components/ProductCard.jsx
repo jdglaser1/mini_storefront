@@ -1,13 +1,11 @@
 // app/components/ProductCard.jsx
 'use client'
 
-import ProductList from "./Components/ProductList"
-
 export default function ProductCard(){
 
 
   return (
-    <div>
+    <div className='product-card'>
       <button>Add to Cart</button>
     </div>
   )

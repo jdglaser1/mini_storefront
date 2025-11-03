@@ -17,7 +17,8 @@ export default function ProductList() {
       <h2 className = 'subtitle'>Bakery Products</h2>
       <ul>
         {products.map(p => (
-          <li className='product-container' key={p.id}>{p.name} - ${p.price}</li>
+          <li className='product-card' key={p.id}>{p.name} : ${p.price} <button className='button'>Add to Cart</button></li>
+        
         ))}
       </ul>
     </div>
