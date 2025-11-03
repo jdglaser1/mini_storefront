@@ -3,6 +3,7 @@
 
 
 
+import CartSummary from "./Components/CartSummary"
 import ProductList from "./Components/ProductList"
 
 export default function Home(){
@@ -12,9 +13,7 @@ export default function Home(){
     <div>
       <h1 className='site-header'>Mini Bakery Storefront</h1>
       <ProductList/>
-      
-    
-     
+      <CartSummary/>
     </div>
   )
 }

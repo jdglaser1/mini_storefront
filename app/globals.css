@@ -97,7 +97,7 @@ body {
 }
 
 .button {
-  background-color: rgb(125, 125, 125);
+  background-color: rgb(122, 114, 96);
   width: 100px;
   align-self: center;
   border: 2px;
@@ -108,4 +108,14 @@ body {
   display: inline-block;
   font-size: 16px;
   cursor: pointer;
+}
+
+.cart{
+  background: var(--card);
+  border: 1px solid #e5e7eb;
+  border-radius: 12px;
+  overflow: hidden;
+  transition: transform .25s ease, box-shadow .25s ease;
+  display: flex;
+  flex-direction: column;
 }
